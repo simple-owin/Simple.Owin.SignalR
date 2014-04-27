@@ -1,12 +1,12 @@
 include FileTest
 
 # Build information
-SOLUTION_NAME = "Simple.Owin.Static"
-SOLUTION_DESC = "Static file serving middleware for OWIN."
+SOLUTION_NAME = "Simple.Owin.SignalR"
+SOLUTION_DESC = "Make SignalR work with vanilla OWIN."
 SOLUTION_LICENSE = "http://www.opensource.org/licenses/mit-license.php"
-SOLUTION_URL = "http://github.com/simple-owin/Simple.Owin.Static"
+SOLUTION_URL = "http://github.com/simple-owin/Simple.Owin.SignalR"
 SOLUTION_COMPANY = "Mark Rendle"
-SOLUTION_COPYRIGHT = "Copyright (C) #{SOLUTION_COMPANY} 2010-2013"
+SOLUTION_COPYRIGHT = "Copyright (C) #{SOLUTION_COMPANY} 2010-2014"
 
 # Build configuration
 load "VERSION.txt"
@@ -42,8 +42,8 @@ NUGET_PATH = "#{ARTIFACTS_PATH}/nuget"
 TOOLS_PATH = "#{BASE_PATH}/tools"
 
 # Files
-ASSEMBLY_INFO = "#{SOURCE_PATH}/Simple.Owin.Static/Properties/AssemblyInfo.cs"
-SOLUTION_FILE = "#{SOURCE_PATH}/Simple.Owin.Static.sln"
+ASSEMBLY_INFO = "#{SOURCE_PATH}/Simple.Owin.SignalR/Properties/AssemblyInfo.cs"
+SOLUTION_FILE = "#{SOURCE_PATH}/Simple.Owin.SignalR.sln"
 VERSION_INFO = "#{BASE_PATH}/VERSION.txt"
 
 # Matching
