@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Simple.Owin.SignalR Demo</title>
+    <style>
+        li { list-style: none; }
+    </style>
+</head>
+<body>
+    <h1>Simple.Owin.SignalR Demo</h1>
+    
+    <ul id="responses">
+    </ul>
+    
+    <p id="connecting">Connecting...</p>
+    <form id="form">
+        <label for="something">Say something</label>
+        <input id="something" type="text" />
+        <input type="submit" value="Go" />
+    </form>
+
+    <script src="Scripts/jquery-2.1.0.min.js"></script>
+    <script src="Scripts/jquery.signalR-2.0.3.min.js"></script>
+    <script src="/signalr/hubs"></script>
+    <script src="Scripts/demo.js"></script>
+</body>
+</html>
